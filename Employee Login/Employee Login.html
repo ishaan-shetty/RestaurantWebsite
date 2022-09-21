@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Login- Spice Lane</title>
+<link href="../css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<link rel='icon' href='../Photos/favicon_final 96x96.png' type='image/x-icon'/ >
+</head>
+<body style="padding-top: 70px">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="font-family: sans-serif;">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item"> <a class="nav-link" href="../Home Page/Home Page.html">Home <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="../Reservation/Reservation.html">Reservations</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="../Indian-Menu/Indian-Menu.html">Menu</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="../Gallery/Gallery.html">Gallery</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="../About Page/About Page.html">Contact Us<span class="sr-only">(current)</span></a> </li>
+	 </ul>
+		<ul class="nav navbar-nav navbar-right">
+        <li class="nav-item active"> <a class="nav-link" href="Employee Login.html">Employee login</a> </li>
+      </ul>
+  </nav>
+	
+	<div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8 mx-auto">
+          <div class="jumbotron">
+            <div class="row text-center">
+              <div class="text-center col-12">
+                <h2>Login</h2>
+              </div>
+				<br><br><br>
+              <div class="text-center col-12">
+                <form id="loginForm" class="text-center">
+                  <div class="form-group">
+                    <label for="username">User Name</label>
+                    <input type="text" class="form-control" id="username" name="uname" placeholder="User Name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" name="pass" placeholder="Password" required>
+                  </div>
+                  
+                  <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg" input type="submit" onclick= "loginCheck();"> Login </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+<script src="loginCheck.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.3.1.js"></script>
+</body>
+</html>

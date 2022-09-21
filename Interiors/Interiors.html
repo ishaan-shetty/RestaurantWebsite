@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery- Spice Lane</title>
+<link href="../css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<style>
+        .container {
+          position: relative;
+          width: 50%;
+        }
+        
+        .image {
+          opacity: 1;
+          display: block;
+          width: 200px;
+          height: 200px;
+          transition: .5s ease;
+          backface-visibility: hidden;
+        }
+        
+        .middle {
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        
+        .container:hover .image {
+          opacity: 0.3;
+        }
+        
+        .container:hover .middle {
+          opacity: 1;
+        }
+        
+        .text {
+          color: black;
+          font-size: 25px;
+          padding: 16px 32px;
+        }
+        </style>
+        <link rel='icon' href='../Photos/favicon_final 96x96.png' type='image/x-icon'/ >
+</head>
+
+<body style="padding-top: 70px">
+<!--    Navigation Bar  -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="font-family: sans-serif;">
+    <ul class="navbar-nav mr-auto">
+         <li class="nav-item"> <a class="nav-link" href="../Home Page/Home page.html">Home<span class="sr-only">(current)</span></a> </li>
+  <li class="nav-item"> <a class="nav-link" href="../Reservation/Reservation.html">Reservations</a> </li>
+  <li class="nav-item"> <a class="nav-link" href="../Indian-Menu/Indian-Menu.html">Menu</a> </li>
+    <li class="nav-item active"> <a class="nav-link" href="../Gallery/Gallery.html">Gallery</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="../About Page/About Page.html">Contact Us<span class="sr-only">(current)</span></a> </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item"> <a class="nav-link" href="../Employee Login/Employee Login.html">Employee login</a> </li>
+          </ul>
+</nav>
+<!--         Gallery Heading-->
+<center><img src="Photos/Interiors.jpg"</center>  <br><br>
+<!--	Images Row 1-->
+<center> 
+    <div class="row">
+        <div class="column">
+<div class="container">
+  <a style="text-decoration:none" target="_blank" href="Photos/Grnd Floor Interior.jpg"><img src="Photos/Grnd Floor Interior.jpg" alt="Ground Floor" class="image" style="width:400px; height: 200px;">
+  <div class="middle">
+    <div class="text">Ground Floor</div></a>
+  </div>
+  </div>
+        </div>
+        <div class="column">
+  <div class="container">
+        <a style="text-decoration:none" target="_blank" href="Photos/Interior 1st Floor Fountain.jpg"><img src="Photos/Interior 1st Floor Fountain.jpg" alt="First Floor Fountain View" class="image" style="width:400px; height: 200px;">
+  <div class="middle">
+    <div class="text">First Floor Fountain View</div></a>
+  </div>
+  </div>
+</div>
+<div class="column">
+<div class="container">
+        <a style="text-decoration:none" target="_blank" href="Photos/Bar.jpg"> <img src="Photos/Bar.jpg" alt="Bar" class="image" style="width:400px; height: 200px;">
+        <div class="middle">
+          <div class="text">Bar</div></a>
+        </div>
+        </div>
+      </div>
+      </div>
+</center>
+<br><br>
+<!-- Image Row 2 -->
+<center> 
+        <div class="row">
+            <div class="column">
+    <div class="container">
+            <a style="text-decoration:none" target="_blank" href="Photos/Banquet Interior.jpeg"> <img src="Photos/Banquet Interior.jpeg" alt="Banquet Hall" class="image" style="width:400px; height: 200px;">
+      <div class="middle">
+        <div class="text">Banquet Hall</div></a>
+      </div>
+      </div>
+            </div>
+            <div class="column">
+      <div class="container">
+            <a style="text-decoration:none" target="_blank" href="Photos/YAT_7447_8_9_Sm 1st fl intr 2 fnl_edited.jpg"><img src="Photos/YAT_7447_8_9_Sm 1st fl intr 2 fnl_edited.jpg" alt="First Floor" class="image" style="width:400px; height: 200px;">
+      <div class="middle">
+        <div class="text">First Floor</div></a>
+      </div>
+      </div>
+    </div>
+    <div class="column">
+        <div class="container">
+              <a style="text-decoration:none" target="_blank" href="Photos/YAT_7341-7343 corner fnl clean up.jpg"><img src="Photos/YAT_7341-7343 corner fnl clean up.jpg" alt="Banquet Hall" class="image" style="width:400px; height: 200px;">
+        <div class="middle">
+          <div class="text">Banquet Hall</div></a>
+        </div>
+        </div>
+      </div>
+          </div>
+    </center>
+
+
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.3.1.js"></script>
+<br>
+<hr>
+<!--		  Footer-->
+<footer class="text-center">
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <p class="footerDisclaimer">2019  Copyrights - Laurel Hotels Pvt Ltd- <span>All Rights Reserved</span></p>
+    </div>
+  </div>
+</div>
+</footer>
+</body>
+</html>
